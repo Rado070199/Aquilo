@@ -1,0 +1,1 @@
+# Planuje i monitoruje procesy produkcyjne, zarządza zasobami, harmonogramami i materiałami.

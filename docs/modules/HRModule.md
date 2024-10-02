@@ -1,0 +1,1 @@
+# Odpowiada za rekrutację, zarządzanie płacami, czasem pracy, szkoleniami oraz rozwojem pracowników.

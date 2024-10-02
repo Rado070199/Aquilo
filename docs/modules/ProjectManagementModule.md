@@ -1,0 +1,1 @@
+# Śledzi postęp projektów, zarządza zasobami, czasem i budżetami.

@@ -1,5 +1,17 @@
-## Diagram architektury systemu ERP
+# Aquilo
+## Krótkie wprowadzenie do projektu
+System ERP Aquilo to kompleksowe oprogramowanie służące do zarządzania wszystkimi kluczowymi procesami biznesowymi w firmie, takimi jak finanse, zasoby ludzkie, produkcja, magazynowanie czy sprzedaż. Centralizuje on dane i operacje w jednej platformie, co umożliwia lepszą kontrolę nad zasobami i procesami przedsiębiorstwa. Dzięki modularnej budowie, system ERP można łatwo rozbudowywać o dodatkowe funkcje, dostosowując go do specyficznych potrzeb danej firmy. Każdy moduł może odpowiadać za inny obszar działalności, jak HR, finanse czy logistyka, i współpracować z innymi modułami. System ERP ułatwia automatyzację procesów, poprawia efektywność i zapewnia lepszy przepływ informacji między działami. Jest skalowalny, dzięki czemu może rosnąć wraz z rozwojem firmy, co czyni go elastycznym narzędziem na długą perspektywę.
+### Podstawowe moduły systemu
+* [Moduł Finansowy](docs/modules/FinancialModule.md)
+* [Moduł Zarządzania Zasobami Ludzkimi (HR)](docs/modules/HRModule.md)
+* [Moduł Zarządzania Magazynem](docs/modules/WarehouseManagementModule.md)
+* [Moduł Sprzedaży i Zarządzania Zamówieniami](docs/modules/SalesAndOrderManagementModule.md)
+* [Moduł Zakupów](docs/modules/ShoppingModule.md)
+* [Moduł Produkcji](docs/modules/ProductionModule.md)
+* [Moduł Zarządzania Projektami](docs/modules/ProjectManagementModule.md)
 
+## Architektura
+### Diagram architektury systemu ERP Aquilo
 ```mermaid
 graph TD
     A[Presentation Layer UI] -->|Wywołuje| API[API ASP.NET Core Web API]
@@ -60,3 +72,34 @@ Opis: Umożliwia integrację z innymi systemami lub usługami, które mogą być
 Interakcje: Zewnętrzne usługi mogą zwracać dane do warstwy logiki biznesowej, co pozwala na rozszerzenie funkcjonalności systemu ERP.
 Połączenia między modułami a warstwą logiki biznesowej
 Każdy z modułów w warstwie logiki biznesowej (HR, Finanse, Magazyn, Zamówienia) korzysta z warstwy dostępu do danych, co umożliwia im realizację operacji związanych z danymi, takich jak pobieranie, dodawanie, modyfikowanie lub usuwanie danych.
+
+## Funkcjonalności
+* [Dodawanie własnych modułów systemu](docs/instructions/AddingNewFunctionalitiesToTheSystem.md)
+* [Integracje z usługami zewnętrznymi](docs/instructions/IntegrationsWithExternalServices.md)
+
+## Wymaganie systemowe
+
+## Instalacja i konfiguracja
+
+1. Klonowanie repozytorium
+2. Instalacja zależności
+3. Konfiguracja plików
+4. Migracje bazy danych
+5. Uruchomienie projektu
+
+## Instrukcja
+
+## Technologie i narzędzia
+* .NET8 lub nowszy
+
+## Przykładowe dane
+
+## FAQ
+
+## Autorzy i wkład
+
+## Licencja
+
+## Plany na przyszłość
+
+## Changelog

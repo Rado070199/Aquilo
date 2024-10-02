@@ -1,0 +1,1 @@
+# Zarządza finansami, księgowością, rozliczeniami, raportowaniem i budżetowaniem.

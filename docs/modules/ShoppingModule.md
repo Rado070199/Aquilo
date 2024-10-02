@@ -1,0 +1,1 @@
+# Zarządza zamówieniami od dostawców, zakupami materiałów oraz kontrolą kosztów.

@@ -1,0 +1,1 @@
+# Śledzi poziomy zapasów, zarządza magazynem, kontroluje logistykę i dostawy.

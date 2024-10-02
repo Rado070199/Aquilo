@@ -1,0 +1,1 @@
+# Obsługuje sprzedaż, zarządza relacjami z klientami, przetwarza zamówienia i faktury.
