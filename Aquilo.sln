@@ -5,6 +5,20 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aquilo.API", "Aquilo.API\Aquilo.API.csproj", "{71B7DCF9-0D11-44C5-A0C6-2BB451FA69A8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aquilo.Tests", "Aquilo.Tests\Aquilo.Tests.csproj", "{EECA7F2C-45FD-4DBB-AB3D-201216EF0D02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aquilo.Data", "Aquilo.Data\Aquilo.Data.csproj", "{8871F012-CB54-408C-AC39-DC2D07357D21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aquilo.Business", "Aquilo.Business\Aquilo.Business.csproj", "{3E0F35DE-4A73-4E90-AADE-97B8511217B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aquilo.Common", "Aquilo.Common\Aquilo.Common.csproj", "{7759B2B7-9450-4208-AD81-B9FC4FF4517E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aquilo.ExternalServices", "Aquilo.ExternalServices\Aquilo.ExternalServices.csproj", "{B49A3B8D-7611-4654-A0E3-394A80E3DAC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{011E0BFD-0E7F-4292-B096-847F67143CE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{A9AA7F04-667D-47DB-B05C-CB77ACF6561E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +29,31 @@ Global
 		{71B7DCF9-0D11-44C5-A0C6-2BB451FA69A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71B7DCF9-0D11-44C5-A0C6-2BB451FA69A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71B7DCF9-0D11-44C5-A0C6-2BB451FA69A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EECA7F2C-45FD-4DBB-AB3D-201216EF0D02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EECA7F2C-45FD-4DBB-AB3D-201216EF0D02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EECA7F2C-45FD-4DBB-AB3D-201216EF0D02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EECA7F2C-45FD-4DBB-AB3D-201216EF0D02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8871F012-CB54-408C-AC39-DC2D07357D21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8871F012-CB54-408C-AC39-DC2D07357D21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8871F012-CB54-408C-AC39-DC2D07357D21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8871F012-CB54-408C-AC39-DC2D07357D21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E0F35DE-4A73-4E90-AADE-97B8511217B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E0F35DE-4A73-4E90-AADE-97B8511217B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E0F35DE-4A73-4E90-AADE-97B8511217B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E0F35DE-4A73-4E90-AADE-97B8511217B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7759B2B7-9450-4208-AD81-B9FC4FF4517E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7759B2B7-9450-4208-AD81-B9FC4FF4517E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7759B2B7-9450-4208-AD81-B9FC4FF4517E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7759B2B7-9450-4208-AD81-B9FC4FF4517E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B49A3B8D-7611-4654-A0E3-394A80E3DAC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B49A3B8D-7611-4654-A0E3-394A80E3DAC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B49A3B8D-7611-4654-A0E3-394A80E3DAC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B49A3B8D-7611-4654-A0E3-394A80E3DAC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57A752A0-893A-4754-8E63-3091DF4010EE}
 	EndGlobalSection
 EndGlobal

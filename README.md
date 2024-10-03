@@ -1,7 +1,25 @@
+
 # Aquilo
+
+## Spis treści
+- [Krótkie wprowadzenie do projektu](#krótkie wprowadzenie do projektu)
+- [Podstawowe moduły systemu](#podstawowe moduły systemu)
+- [Architektura](#architektura)
+- [Funkcjonalności](#funkcjonalności)
+- [Wymaganie systemowe](#wymaganie-systemowe)
+- [Instalacja i konfiguracja](#instalacja-i-konfiguracja)
+- [Instrukcja](#instrukcja)
+- [Technologie i narzędzia](#technologie-i-narzędzia)
+- [Przykładowe dane](#przykładowe-dane)
+- [FAQ](#faq)
+- [Licencja](#licencja)
+- [Plany na przyszłość](#plany-na-przyszłość)
+- [Wersje](#wersje)
+
 ## Krótkie wprowadzenie do projektu
 System ERP Aquilo to kompleksowe oprogramowanie służące do zarządzania wszystkimi kluczowymi procesami biznesowymi w firmie, takimi jak finanse, zasoby ludzkie, produkcja, magazynowanie czy sprzedaż. Centralizuje on dane i operacje w jednej platformie, co umożliwia lepszą kontrolę nad zasobami i procesami przedsiębiorstwa. Dzięki modularnej budowie, system ERP można łatwo rozbudowywać o dodatkowe funkcje, dostosowując go do specyficznych potrzeb danej firmy. Każdy moduł może odpowiadać za inny obszar działalności, jak HR, finanse czy logistyka, i współpracować z innymi modułami. System ERP ułatwia automatyzację procesów, poprawia efektywność i zapewnia lepszy przepływ informacji między działami. Jest skalowalny, dzięki czemu może rosnąć wraz z rozwojem firmy, co czyni go elastycznym narzędziem na długą perspektywę.
-### Podstawowe moduły systemu
+
+## Podstawowe moduły systemu
 * [Moduł Finansowy](docs/modules/FinancialModule.md)
 * [Moduł Zarządzania Zasobami Ludzkimi (HR)](docs/modules/HRModule.md)
 * [Moduł Zarządzania Magazynem](docs/modules/WarehouseManagementModule.md)
@@ -14,7 +32,7 @@ System ERP Aquilo to kompleksowe oprogramowanie służące do zarządzania wszys
 ### Diagram architektury systemu ERP Aquilo
 ```mermaid
 graph TD
-    A[Presentation Layer UI] -->|Wywołuje| API[API ASP.NET Core Web API]
+    A[Presentation Layer UI] -->|Wywołuje| API[Application API]
     
     subgraph Business Logic Layer
         B1[HR Module] 
@@ -45,10 +63,11 @@ Diagram składa się z pięciu głównych warstw, które wspólnie tworzą syste
 
 1. Warstwa Prezentacji (Presentation Layer UI)
 Opis: Warstwa ta jest odpowiedzialna za interakcję z użytkownikami. Obejmuje wszystkie komponenty, które są widoczne dla użytkownika, takie jak formularze, widoki oraz interfejsy.
-Interakcje: Komunikacja w tej warstwie odbywa się poprzez wywołania do API (ASP.NET Core Web API), które obsługuje żądania użytkowników.
-2. Warstwa API
+Interakcje: Komunikacja w tej warstwie odbywa się poprzez wywołania do Application API, które obsługuje żądania użytkowników.
+2. Warstwa API (Application API)
 Opis: Stanowi pośrednika między warstwą prezentacyjną a warstwą logiki biznesowej. API jest odpowiedzialne za przyjmowanie żądań od warstwy prezentacyjnej, przetwarzanie ich i kierowanie do odpowiednich modułów logiki biznesowej.
 Interakcje: API wywołuje logikę biznesową i przekazuje jej żądania do odpowiednich modułów.
+*Szczegółową dokumentacje tej warstwy znajdziesz* [`tutaj`](docs/instructions/Aquilo.API.md)
 3. Warstwa Logiki Biznesowej (Business Logic Layer)
 Moduły:
 Moduł HR (HR Module): Obsługuje funkcje związane z zarządzaniem zasobami ludzkimi.
@@ -90,7 +109,7 @@ Każdy z modułów w warstwie logiki biznesowej (HR, Finanse, Magazyn, Zamówien
 ## Instrukcja
 
 ## Technologie i narzędzia
-* .NET8 lub nowszy
+* .NET8
 
 ## Przykładowe dane
 
@@ -102,4 +121,4 @@ Każdy z modułów w warstwie logiki biznesowej (HR, Finanse, Magazyn, Zamówien
 
 ## Plany na przyszłość
 
-## Changelog
+## Wersje
