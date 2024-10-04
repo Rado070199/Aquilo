@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using Aquilo.MAUI.ViewModels;
+using Aquilo.MAUI.Views;
+using Microsoft.Extensions.Logging;
 
 namespace Aquilo.MAUI
 {
@@ -18,6 +20,10 @@ namespace Aquilo.MAUI
 #if DEBUG
     		builder.Logging.AddDebug();
 #endif
+            //VIEW MODELS
+            builder.Services.AddTransient<StartViewModel>();
+            //VIEWS
+            builder.Services.AddTransient<StartView>();
 
             return builder.Build();
         }

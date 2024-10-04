@@ -1,32 +1,32 @@
 
-# Aquilo
+# :bee: Aquilo
 
-## Spis treści
-- [Krótkie wprowadzenie do projektu](#krótkie wprowadzenie do projektu)
-- [Podstawowe moduły systemu](#podstawowe moduły systemu)
-- [Architektura](#architektura)
-- [Funkcjonalności](#funkcjonalności)
-- [Wymaganie systemowe](#wymaganie-systemowe)
-- [Instalacja i konfiguracja](#instalacja-i-konfiguracja)
-- [Instrukcja](#instrukcja)
-- [Technologie i narzędzia](#technologie-i-narzędzia)
-- [Przykładowe dane](#przykładowe-dane)
-- [FAQ](#faq)
-- [Licencja](#licencja)
-- [Plany na przyszłość](#plany-na-przyszłość)
-- [Wersje](#wersje)
+## :bookmark_tabs:  Spis treści
+:link:[Krótkie wprowadzenie do projektu](#krótkie-wprowadzenie-do-projektu)  
+:link: [Podstawowe moduły systemu](#podstawowe-moduły-systemu)  
+:link: [Architektura](#architektura)  
+:link: [Funkcjonalności](#funkcjonalności)  
+:link: [Wymaganie systemowe](#wymaganie-systemowe)  
+:link: [Instalacja i konfiguracja](#instalacja-i-konfiguracja)  
+:link: [Instrukcja](#instrukcja)  
+:link: [Technologie i narzędzia](#technologie-i-narzędzia)  
+:link: [Przykładowe dane](#przykładowe-dane)  
+:link: [FAQ](#faq)  
+:link: [Licencja](#licencja)  
+:link: [Plany na przyszłość](#plany-na-przyszłość)  
+ :link: [Wersje](#wersje)
 
 ## Krótkie wprowadzenie do projektu
-System ERP Aquilo to kompleksowe oprogramowanie służące do zarządzania wszystkimi kluczowymi procesami biznesowymi w firmie, takimi jak finanse, zasoby ludzkie, produkcja, magazynowanie czy sprzedaż. Centralizuje on dane i operacje w jednej platformie, co umożliwia lepszą kontrolę nad zasobami i procesami przedsiębiorstwa. Dzięki modularnej budowie, system ERP można łatwo rozbudowywać o dodatkowe funkcje, dostosowując go do specyficznych potrzeb danej firmy. Każdy moduł może odpowiadać za inny obszar działalności, jak HR, finanse czy logistyka, i współpracować z innymi modułami. System ERP ułatwia automatyzację procesów, poprawia efektywność i zapewnia lepszy przepływ informacji między działami. Jest skalowalny, dzięki czemu może rosnąć wraz z rozwojem firmy, co czyni go elastycznym narzędziem na długą perspektywę.
+System ERP Aquilo to kompleksowe oprogramowanie służące do zarządzania wszystkimi kluczowymi procesami biznesowymi w firmie, takimi jak finanse, zasoby ludzkie, produkcja, magazynowanie czy sprzedaż. Centralizuje on dane i operacje w jednej platformie, co umożliwia lepszą kontrolę nad zasobami i procesami przedsiębiorstwa. Dzięki modularnej budowie, system ERP można łatwo rozbudowywać o dodatkowe funkcje, dostosowując go do specyficznych potrzeb danej firmy. Każdy moduł może odpowiadać za inny obszar działalności, jak HR, finanse czy logistyka, i współpracować z innymi modułami. System ERP ułatwia automatyzację procesów, poprawia efektywność i zapewnia lepszy przepływ informacji między działami. Jest skalowalny, dzięki czemu może rosnąć wraz z rozwojem firmy, co czyni go elastycznym narzędziem na długą perspektywę. Więcej na temat Aquilo znajdziesz [tutaj](git/empty.md)
 
 ## Podstawowe moduły systemu
-* [Moduł Finansowy](docs/modules/FinancialModule.md)
-* [Moduł Zarządzania Zasobami Ludzkimi (HR)](docs/modules/HRModule.md)
-* [Moduł Zarządzania Magazynem](docs/modules/WarehouseManagementModule.md)
-* [Moduł Sprzedaży i Zarządzania Zamówieniami](docs/modules/SalesAndOrderManagementModule.md)
-* [Moduł Zakupów](docs/modules/ShoppingModule.md)
-* [Moduł Produkcji](docs/modules/ProductionModule.md)
-* [Moduł Zarządzania Projektami](docs/modules/ProjectManagementModule.md)
+* :moneybag: [Moduł Finansowy](docs/modules/FinancialModule.md)
+* :busts_in_silhouette: [Moduł Zarządzania Zasobami Ludzkimi (HR)](docs/modules/HRModule.md)
+* :package: [Moduł Zarządzania Magazynem](docs/modules/WarehouseManagementModule.md)
+* :dollar: [Moduł Sprzedaży i Zarządzania Zamówieniami](docs/modules/SalesAndOrderManagementModule.md)
+* :shopping_cart: [Moduł Zakupów](docs/modules/ShoppingModule.md)
+* :factory: [Moduł Produkcji](docs/modules/ProductionModule.md)
+* :chart_with_upwards_trend: [Moduł Zarządzania Projektami](docs/modules/ProjectManagementModule.md)
 
 ## Architektura
 ### Diagram architektury systemu ERP Aquilo
@@ -93,8 +93,9 @@ Połączenia między modułami a warstwą logiki biznesowej
 Każdy z modułów w warstwie logiki biznesowej (HR, Finanse, Magazyn, Zamówienia) korzysta z warstwy dostępu do danych, co umożliwia im realizację operacji związanych z danymi, takich jak pobieranie, dodawanie, modyfikowanie lub usuwanie danych.
 
 ## Funkcjonalności
-* [Dodawanie własnych modułów systemu](docs/instructions/AddingNewFunctionalitiesToTheSystem.md)
-* [Integracje z usługami zewnętrznymi](docs/instructions/IntegrationsWithExternalServices.md)
+* :heavy_plus_sign: [Dodawanie własnych modułów systemu](docs/instructions/AddingNewFunctionalitiesToTheSystem.md)
+* :hammer_and_wrench: [Modyfikacja istniejących modułów systemu](docs/instructions/empty.md)
+* :electric_plug: [Integracje z usługami zewnętrznymi](docs/instructions/IntegrationsWithExternalServices.md)
 
 ## Wymaganie systemowe
 

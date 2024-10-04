@@ -4,12 +4,13 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Aquilo.MAUI"
+    xmlns:views="clr-namespace:Aquilo.MAUI.Views"
     Shell.FlyoutBehavior="Disabled"
     Title="Aquilo.MAUI">
 
     <ShellContent
         Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
+        ContentTemplate="{DataTemplate views:StartView}"
         Route="MainPage" />
 
 </Shell>
