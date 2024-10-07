@@ -2,7 +2,7 @@
 # :bee: Aquilo
 
 ## :bookmark_tabs:  Spis treści
-:link:[Krótkie wprowadzenie do projektu](#krótkie-wprowadzenie-do-projektu)  
+:link: [Krótkie wprowadzenie do projektu](#krótkie-wprowadzenie-do-projektu)  
 :link: [Podstawowe moduły systemu](#podstawowe-moduły-systemu)  
 :link: [Architektura](#architektura)  
 :link: [Funkcjonalności](#funkcjonalności)  
