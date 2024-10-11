@@ -1,6 +1,29 @@
 using Aquilo.UI.Components;
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder
+    .Host
+    .UseServiceProviderFactory(new AutofacServiceProviderFactory(cb =>
+    {
+        // Rejestracja us³ugi PluginProvider w Autofac
+        cb.RegisterType<Aquilo.UI.PluginProvider>()
+          .AsSelf()
+          .InstancePerLifetimeScope(); // Zakres zale¿noœci (tutaj scoped)
+
+        foreach (var file in Directory.GetFiles(
+            AppDomain.CurrentDomain.BaseDirectory,
+            "*plugin*.dll",
+            SearchOption.TopDirectoryOnly))
+        {
+            var assembly = Assembly.LoadFrom(file);
+            cb.RegisterAssemblyModules(assembly);
+        }
+    }))
+    .ConfigureServices(services => services.AddAutofac());
 
 // Add services to the container.
 builder.Services.AddRazorComponents()

@@ -15,13 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aquilo.Common", "Aquilo.Com
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aquilo.ExternalServices", "Aquilo.ExternalServices\Aquilo.ExternalServices.csproj", "{B49A3B8D-7611-4654-A0E3-394A80E3DAC3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{A9AA7F04-667D-47DB-B05C-CB77ACF6561E}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aquilo.DataAPI", "Aquilo.DataAPI\Aquilo.DataAPI.csproj", "{AA8A1506-49F4-4CFF-B24F-2B22EBD7D810}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FinancalPlugin", "FinancalPlugin", "{16D053F7-6D17-4534-8FA8-0A7E6F181F76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aquilo.UI", "Aquilo.UI\Aquilo.UI.csproj", "{0541590B-7908-460A-83E0-DA6453784735}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aquilo.UI", "Aquilo.UI\Aquilo.UI.csproj", "{0541590B-7908-460A-83E0-DA6453784735}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aquilo.PluginFinancial", "Aquilo.PluginFinancial\Aquilo.PluginFinancial.csproj", "{2590162A-2ED6-4350-8044-27F4BDBC7C9F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,13 +59,13 @@ Global
 		{0541590B-7908-460A-83E0-DA6453784735}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0541590B-7908-460A-83E0-DA6453784735}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0541590B-7908-460A-83E0-DA6453784735}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2590162A-2ED6-4350-8044-27F4BDBC7C9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2590162A-2ED6-4350-8044-27F4BDBC7C9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2590162A-2ED6-4350-8044-27F4BDBC7C9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2590162A-2ED6-4350-8044-27F4BDBC7C9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{16D053F7-6D17-4534-8FA8-0A7E6F181F76} = {A9AA7F04-667D-47DB-B05C-CB77ACF6561E}
-		{0541590B-7908-460A-83E0-DA6453784735} = {A9AA7F04-667D-47DB-B05C-CB77ACF6561E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {57A752A0-893A-4754-8E63-3091DF4010EE}

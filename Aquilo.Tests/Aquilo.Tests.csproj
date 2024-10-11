@@ -22,4 +22,12 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Aquilo.UI.Tests\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Aquilo.UI\Aquilo.UI.csproj" />
+  </ItemGroup>
+
 </Project>
